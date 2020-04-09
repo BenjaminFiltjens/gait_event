@@ -8,7 +8,7 @@ Paper doi here
 3. Labelling script to import a pre-trained model and annotate gait events.
 
 ## Unpublished results
-The deep learning models, which were trained on 15 freezers, were additionally evaluated on fifteen non-freezers. 
+The deep learning models, which were trained on fifteen freezers, were additionally evaluated on fifteen non-freezers. 
 
 |      | IC (n=304) |       | EC (n=278) |       |
 | ---- | :--------: | ----- | :--------: | ----- |
@@ -18,6 +18,5 @@ The deep learning models, which were trained on 15 freezers, were additionally e
 | FN   |     0      | 0     |     0      | 0     |
 | F1   |   0.998    | 0.998 |   0.989    | 0.995 |
 
-Bland-Altman plot: 
 ![](https://github.com/BenjaminFiltjens/gait_event/blob/master/nonFOG-ba.png)
 
