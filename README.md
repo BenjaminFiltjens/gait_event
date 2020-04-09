@@ -20,3 +20,6 @@ The deep learning models, which were trained on fifteen freezers, were additiona
 
 ![](https://github.com/BenjaminFiltjens/gait_event/blob/master/nonFOG-ba.png)
 
+## Unpublished results
+If this repository was helpful, please consider citing:
+Paper bibtex here
