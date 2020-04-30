@@ -4,8 +4,8 @@ Paper doi here
 
 ## Info
 1. Read script to extract the lower limb kinematics from a directory containing c3d files and write them to csv.
-2. Training script to generate the input vectors and train one of the deep learning models from tf_models.
-3. Labelling script to import a pre-trained model and annotate gait events.
+2. Training script (see paper for more info about the procedure)
+3. Labelling script to import a pre-trained model and annotate gait events directly in the c3d file.
 
 ## References
 If this repository was helpful, please consider citing:
