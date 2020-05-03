@@ -94,35 +94,35 @@ def load_file(filename, input_dim, output_dim, nseqlen=128):
     nobs = int(((nend - nstart) / nseqlen))
 
     # Create labels of the 15 patients for the leave one subject out split (hardcoded based on filenames)
-    if "360" in filename or "recht" in filename:
+    if "0":
         id = 0
-    if "20081106" in filename:
+    if "1" in filename:
         id = 1
-    if "FJ" in filename:
+    if "2" in filename:
         id = 2
-    if "b_20080618" in filename:
+    if "3" in filename:
         id = 3
-    if "AD" in filename:
+    if "4" in filename:
         id = 4
-    if "b_20080821" in filename:
+    if "5" in filename:
         id = 5
-    if "DJ" in filename:
+    if "6" in filename:
         id = 6
-    if "KJ" in filename:
+    if "7" in filename:
         id = 7
-    if "GP" in filename:
+    if "8" in filename:
         id = 8
-    if "14_LA" in filename:
+    if "9" in filename:
         id = 9
-    if "HL" in filename:
+    if "10" in filename:
         id = 10
-    if "VP" in filename:
+    if "11" in filename:
         id = 11
-    if "VGF" in filename:
+    if "12" in filename:
         id = 12
-    if "FA" in filename:
+    if "13" in filename:
         id = 13
-    if "31_LA" in filename:
+    if "14" in filename:
         id = 14
 
     if R.shape[0] < (nstart + nseqlen):
