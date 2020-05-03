@@ -94,7 +94,7 @@ def load_file(filename, input_dim, output_dim, nseqlen=128):
     nobs = int(((nend - nstart) / nseqlen))
 
     # Create labels of the 15 patients for the leave one subject out split (hardcoded based on filenames)
-    if "0":
+    if "0" in filename:
         id = 0
     if "1" in filename:
         id = 1
