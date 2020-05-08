@@ -371,7 +371,7 @@ def optimize(space):
 def optimize_final(space):
     reset_seeds(K)
     trainX, trainY, cv_labels, testX, testY, cv_labels_test = run_experiment()
-    test_idx = 'all'
+    test_idx = '7.0'
 
     model = create_model(trainX, trainY, patient=test_idx, space=space, verbose=2, final=True)
     y_pred, y_true, result = results(model, testX, testY)
