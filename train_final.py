@@ -60,7 +60,6 @@ def reset_seeds(reset_graph_with_backend=None):
 
 
 # This is the space of hyperparameters that we will optimize for
-# The number of epochs and TPE iterations differs slightly from our paper
 space = {
     'num_filters': hp.choice('num_filters', [2, 4, 8, 16, 32]),
     'num_dil': hp.choice('num_dil', [[1], [1,1]]),
