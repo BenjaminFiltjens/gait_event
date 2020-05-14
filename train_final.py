@@ -430,7 +430,7 @@ if __name__ == "__main__":
         #best_params = pickle.load(pickle_in)
 
         # After tuning, train the best model on the left out test subject
-        optimize_final(space=best_params)
+        y_pred, y_true, result, model = optimize_final(space=best_params)
 
 
 
