@@ -1,6 +1,6 @@
 # Gait event
 Automated gait event detection for Parkinson's Disease patients with freezing of gait. From our paper:
-Paper doi here
+https://doi.org/10.1016/j.gaitpost.2020.05.026
 
 ## Info
 1. Read script to extract the lower limb kinematics from a directory containing c3d files and write them to csv.
@@ -9,4 +9,4 @@ Paper doi here
 
 ## References
 If this repository was helpful, please consider citing:
-Paper bibtex here
+Filtjens, Benjamin, Alice Nieuwboer, Nicholas D’cruz, Joke Spildooren, Peter Slaets, and Bart Vanrumste. 2020. “A Data-Driven Approach for Detecting Gait Events During Turning in People with Parkinson’s Disease and Freezing of Gait.” Gait & Posture, May.
