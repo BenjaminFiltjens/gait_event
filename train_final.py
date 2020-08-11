@@ -131,7 +131,7 @@ def load_file(filename, input_dim, output_dim, nseqlen=128):
     outputs_file = np.zeros((nobs, nseqlen, output_dim))
     ids = np.zeros((nobs, output_dim))
     for j in range(nobs):
-        data = load_seq(R, nstart, nseqlen, input_dim, output_dim)
+        data = load_seq(R, j*nseqlen, nseqlen, input_dim, output_dim)
         X, Y = data
         sag_1 = X[:,0]
         sag_2 = X[:,3]
